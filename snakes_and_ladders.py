@@ -34,4 +34,11 @@ def run_tests():
 
 # Edit this code
 def move(roll):
+    place = 11
+    if place + roll == 14:
+        print("29")
+    elif place + roll == 17:
+        print("4")
+    else:
+        print(place + roll)
 
